@@ -24,10 +24,13 @@ public class Test {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+//		// TODO Auto-generated method stub
 		  Mediator mediator = new MyMediator();  
-		  mediator.createMediator();  
-		  mediator.workAll();
+//		  mediator.createMediator();  
+//		  mediator.workAll();
+		  User user1 = new User1(mediator);
+		  User user2 = new User2(mediator);
+		  user1.work();
 	}
 
 }

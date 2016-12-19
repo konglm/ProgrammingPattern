@@ -30,7 +30,7 @@ public class User2 extends User {
 	@Override
 	public void work() {
 		// TODO Auto-generated method stub
-		System.out.println("user2 exe!");
+		super.getMediator().workAll();
 	}
 
 }

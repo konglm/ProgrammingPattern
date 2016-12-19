@@ -47,8 +47,10 @@ public class MyMediator implements Mediator {
 	@Override
 	public void workAll() {
 		// TODO Auto-generated method stub
-		  user1.work();  
-		  user2.work(); 
+//		  user1.work();  
+//		  user2.work(); 
+		System.out.println("user1 exe!"); 
+		System.out.println("user2 exe!");
 	}
 
 }
