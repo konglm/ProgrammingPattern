@@ -37,10 +37,8 @@ public class MyMediator implements Mediator {
 	@Override
 	public void createMediator() {
 		// TODO Auto-generated method stub
-//		  user1 = new User1(this);  
-//		  user2 = new User2(this);
-		  user1 = new User1();  
-		  user2 = new User2();
+		  user1 = new User1(this);  
+		  user2 = new User2(this);
 	}
 
 	/**

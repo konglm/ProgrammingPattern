@@ -20,9 +20,9 @@ package mediator;
  */
 public class User1 extends User {
 	
-//	  public User1(Mediator mediator){  
-//		  super(mediator);  
-//	  }
+	  public User1(Mediator mediator){  
+		  super(mediator);  
+	  }
 
 	/**
 	 *  @author konglm
